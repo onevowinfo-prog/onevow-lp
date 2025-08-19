@@ -15,6 +15,6 @@ jobs:
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
-          channelId: live                 # ←本番にデプロイ
-          projectId: one-vow-l-p-nhlxnb   # ←あなたのプロジェクトID
-          # target: default               # (複数サイト運用時のみ)
+          projectId: one-vow-l-p-nhlxnb   # ← あなたのプロジェクトIDにする
+          channelId: live                 # 本番にデプロイ
+          # entryPoint: ./                # firebase.jsonがルートに無い時だけ相対パスを指定
