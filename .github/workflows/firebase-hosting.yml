@@ -3,7 +3,7 @@ name: Deploy to Firebase Hosting
 on:
   push:
     branches:
-      - main  # ここは正しいブランチ名であることを確認
+      - main
 
 jobs:
   build_and_deploy:
